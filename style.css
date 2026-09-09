@@ -15,6 +15,18 @@ a{text-decoration:none;color:inherit}button{font:inherit}.site-header{position:f
 .training{max-width:none;width:100%;padding-left:max(5%,calc((100% - 1180px)/2));padding-right:max(5%,calc((100% - 1180px)/2));display:grid;grid-template-columns:1.05fr .95fr;gap:70px;background:#06150a;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.training-copy>p:not(.eyebrow){color:var(--muted);max-width:620px}.cycle{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:35px 0}.cycle div{padding:14px 8px;border:1px solid var(--line);border-radius:12px;text-align:center}.cycle b{display:block;color:var(--lime);font-size:11px}.cycle span{font-size:11px}.training-list{display:grid;align-content:center;gap:10px}.training-item{display:flex;justify-content:space-between;gap:20px;padding:18px 0;border-bottom:1px solid var(--line)}.training-item b{min-width:150px}.training-item span{color:var(--muted);font-size:13px;text-align:right}
 .module-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.module{padding:25px 18px;background:#0b2111;border:1px solid var(--line);border-radius:14px;font-weight:700;text-align:center}.module:hover{border-color:var(--lime);color:var(--lime)}
 .instructor-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.instructor{padding:28px 20px;background:var(--card);border:1px solid var(--line);border-radius:18px}.avatar{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:var(--lime);color:var(--green);font-weight:900;margin-bottom:20px}.instructor h3{font-size:18px;margin:0 0 6px}.instructor p{color:var(--muted);font-size:12px;min-height:38px}.instructor span{font-size:10px;color:var(--lime);text-transform:uppercase;letter-spacing:1px}
+
+/* NEW CODE FOR THE INSTRUCTOR IMAGE */
+.instructor-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid var(--lime); /* Green border matching the theme */
+  background-color: #0d2414;
+}
+
 .booking{padding-top:55px;padding-bottom:90px}.booking-box{padding:50px;border-radius:24px;background:linear-gradient(125deg,#153d1c,#08190c);border:1px solid rgba(111,225,59,.25);display:grid;grid-template-columns:1fr 1fr;gap:45px}.booking-box h2{margin-bottom:12px}.booking-box p:not(.eyebrow){color:var(--muted)}.contact-actions{display:grid;gap:12px}.contact-card{padding:20px 22px;background:rgba(0,0,0,.2);border:1px solid var(--line);border-radius:14px}.contact-card:hover{border-color:var(--lime)}.contact-card small,.contact-card span{display:block;font-size:10px;color:var(--muted);letter-spacing:1px}.contact-card strong{display:block;font-size:18px;margin:4px 0}.contact-card:hover strong{color:var(--lime)}
 footer{padding:30px 5%;display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);color:var(--muted);font-size:12px}footer b{display:block;color:white;letter-spacing:1px}footer span{font-size:10px;color:var(--lime)}footer a{color:var(--lime)}
 .modal{position:fixed;inset:0;z-index:50;display:none;place-items:center;background:rgba(0,0,0,.78);padding:20px}.modal.show{display:grid}.modal-box{width:min(560px,100%);background:#0c2413;border:1px solid rgba(111,225,59,.4);border-radius:20px;padding:35px;position:relative;box-shadow:0 25px 80px rgba(0,0,0,.5)}.modal-box h2{font-family:"Bebas Neue";font-size:52px;margin:0 0 12px}.modal-box p:not(.eyebrow){color:var(--muted)}.modal-close{position:absolute;right:15px;top:12px;border:0;background:none;color:white;font-size:32px;cursor:pointer}
